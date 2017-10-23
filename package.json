@@ -1,0 +1,11 @@
+{
+  "name": "pounder-stores",
+  "version": "1.0.0",
+  "description": "Storage classes or Pounder,",
+  "main": "index.js",
+  "scripts": {
+    "test": "run dev"
+  },
+  "author": "Charlie Hall",
+  "license": "MIT"
+}
