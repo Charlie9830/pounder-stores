@@ -31,7 +31,7 @@ export class TaskListStore {
 }
 
 export class TaskStore {
-    constructor(taskName, dueDate, isComplete, project, taskList, uid, dateAdded, isNewTask) {
+    constructor(taskName, dueDate, isComplete, project, taskList, uid, dateAdded, isNewTask, isHighPriority) {
         this.taskName = taskName;
         this.dueDate = dueDate;
         this.isComplete = isComplete;
@@ -40,5 +40,6 @@ export class TaskStore {
         this.uid = uid;
         this.dateAdded = dateAdded;
         this.isNewTask = isNewTask;
+        this.isHighPriority = isHighPriority;
     }
 }

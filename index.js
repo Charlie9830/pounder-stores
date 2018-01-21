@@ -38,7 +38,7 @@ var TaskListStore = exports.TaskListStore = function TaskListStore(taskListName,
     this.settings = settings;
 };
 
-var TaskStore = exports.TaskStore = function TaskStore(taskName, dueDate, isComplete, project, taskList, uid, dateAdded, isNewTask) {
+var TaskStore = exports.TaskStore = function TaskStore(taskName, dueDate, isComplete, project, taskList, uid, dateAdded, isNewTask, isHighPriority) {
     _classCallCheck(this, TaskStore);
 
     this.taskName = taskName;
@@ -49,4 +49,5 @@ var TaskStore = exports.TaskStore = function TaskStore(taskName, dueDate, isComp
     this.uid = uid;
     this.dateAdded = dateAdded;
     this.isNewTask = isNewTask;
+    this.isHighPriority = isHighPriority;
 };
