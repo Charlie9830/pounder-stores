@@ -1,6 +1,6 @@
 {
   "name": "pounder-stores",
-  "version": "1.0.0",
+  "version": "1.2.4",
   "description": "Storage classes or Pounder,",
   "main": "index.js",
   "scripts": {
