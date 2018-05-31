@@ -43,3 +43,10 @@ export class TaskStore {
         this.isHighPriority = isHighPriority;
     }
 }
+
+export class AccountStore {
+    constructor(uid, favourteProjectId) {
+        this.uid = uid;
+        this.favourteProjectId = favourteProjectId;
+    }
+}

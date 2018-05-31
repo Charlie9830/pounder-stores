@@ -51,3 +51,10 @@ var TaskStore = exports.TaskStore = function TaskStore(taskName, dueDate, isComp
     this.isNewTask = isNewTask;
     this.isHighPriority = isHighPriority;
 };
+
+var AccountStore = exports.AccountStore = function AccountStore(uid, favourteProjectId) {
+    _classCallCheck(this, AccountStore);
+
+    this.uid = uid;
+    this.favourteProjectId = favourteProjectId;
+};
