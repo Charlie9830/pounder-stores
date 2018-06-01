@@ -50,3 +50,11 @@ export class AccountStore {
         this.favourteProjectId = favourteProjectId;
     }
 }
+
+export var CssConfigStore = {
+    '--primary-color': '',
+    '--background-color': '',
+    '--surface-color': '',
+    '--surface-color-alternate': '',
+    '--primary-button-background-image': ''
+}

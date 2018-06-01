@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -57,4 +57,12 @@ var AccountStore = exports.AccountStore = function AccountStore(uid, favourtePro
 
     this.uid = uid;
     this.favourteProjectId = favourteProjectId;
+};
+
+var CssConfigStore = exports.CssConfigStore = {
+    '--primary-color': '',
+    '--background-color': '',
+    '--surface-color': '',
+    '--surface-color-alternate': '',
+    '--primary-button-background-image': ''
 };
