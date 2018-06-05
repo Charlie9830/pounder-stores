@@ -64,5 +64,4 @@ var CssConfigStore = exports.CssConfigStore = {
     '--background-color': '',
     '--surface-color': '',
     '--surface-color-alternate': '',
-    '--primary-button-background-image': ''
 };

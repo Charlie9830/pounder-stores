@@ -1,3 +1,13 @@
+export class DatabaseStore {
+    constructor(projects, projectLayouts, taskLists, tasks, accountConfig) {
+        this.projects = projects;
+        this.projectLayouts = projectLayouts;
+        this.taskLists = taskLists;
+        this.tasks = tasks;
+        this.accountConfig = accountConfig;
+    }
+}
+
 export class ProjectStore {
     constructor(projectName, uid) {
         this.projectName = projectName;
