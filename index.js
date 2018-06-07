@@ -6,6 +6,16 @@ Object.defineProperty(exports, "__esModule", {
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+var DatabaseStore = exports.DatabaseStore = function DatabaseStore(projects, projectLayouts, taskLists, tasks, accountConfig) {
+    _classCallCheck(this, DatabaseStore);
+
+    this.projects = projects;
+    this.projectLayouts = projectLayouts;
+    this.taskLists = taskLists;
+    this.tasks = tasks;
+    this.accountConfig = accountConfig;
+};
+
 var ProjectStore = exports.ProjectStore = function ProjectStore(projectName, uid) {
     _classCallCheck(this, ProjectStore);
 
@@ -64,4 +74,5 @@ var CssConfigStore = exports.CssConfigStore = {
     '--background-color': '',
     '--surface-color': '',
     '--surface-color-alternate': '',
+    '--primary-button-background-image': ''
 };
