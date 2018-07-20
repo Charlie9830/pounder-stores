@@ -153,6 +153,8 @@ export var CssConfigStore = {
     '--task-list-header-selected-text-color': '',
     '--task-list-header-background-color': '',
     '--task-list-header-background-selected-color': '',
+    '--scrollbar-track-color': '',
+    '--scrollbar-thumb-color': '',
     '--database-synced-color': '',
     '--database-updates-pending-color': '',
 }
