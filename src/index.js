@@ -9,10 +9,12 @@ export class DatabaseStore {
 }
 
 export class ProjectStore {
-    constructor(projectName, uid, isRemote) {
+    constructor(projectName, uid, isRemote, created, updated) {
         this.projectName = projectName;
         this.uid = uid;
         this.isRemote = isRemote;
+        this.created = created;
+        this.updated = updated;
     }
 }
 
