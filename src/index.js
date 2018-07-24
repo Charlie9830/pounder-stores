@@ -18,6 +18,19 @@ export class ProjectStore {
     }
 }
 
+export function ProjectFactory(projectName, uid, isRemote, created, updated) {
+    var coercedCreated = created === undefined ? "" : created;
+    var coercedUpdated = updated === undefined ? "" : updated;
+
+    return {
+        projectName: projectName,
+        uid: uid,
+        isRemote: isRemote,
+        created: coercedCreated,
+        updated: coercedUpdated,
+    }
+}
+
 export class RemoteStore {
     constructor(projectName, uid, members, projectLayout, taskLists, tasks) {
         this.projectName = projectName;
