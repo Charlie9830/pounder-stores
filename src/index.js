@@ -62,9 +62,19 @@ export class ProjectLayoutStore {
 }
 
 export class TaskListSettingsStore {
-    constructor(isCompleteTasksShown, sortBy) {
+    constructor(isCompleteTasksShown, sortBy, checklistSettings) {
         this.isCompleteTasksShown = isCompleteTasksShown;
         this.sortBy = sortBy;
+        this.checklistSettings = checklistSettings;
+    }
+}
+
+export function ChecklistSettingsFactory(isChecklist, initialStartDate, nextRenewDate, renewInterval) {
+    return {
+        isChecklist: isChecklist,
+        initialStartDate: initialStartDate,
+        nextRenewDate: nextRenewDate,
+        renewInterval: renewInterval,
     }
 }
 
