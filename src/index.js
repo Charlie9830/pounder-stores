@@ -133,12 +133,13 @@ export class InviteStore {
 }
 
 export class TaskMetadataStore {
-    constructor(createdBy, createdOn, updatedBy, updatedOn, completedBy) {
+    constructor(createdBy, createdOn, updatedBy, updatedOn, completedBy, completedOn) {
         this.createdBy = createdBy;
         this.createdOn = createdOn;
         this.updatedBy = updatedBy;
         this.updatedOn = updatedOn;
         this.completedBy = completedBy;
+        this.completedOn = completedOn;
     }
 }
 
@@ -154,6 +155,7 @@ export var CssConfigStore = {
     '--primary-active-text-color': '',
     '--primary-inactive-text-color': '',
     '--primary-hover-color': '',
+    '--primary-divider-color': '',
     '--alternate-active-text-color': '', 
     '--alternate-inactive-text-color': '',
     '--loading-spinner-primary-color': '',
