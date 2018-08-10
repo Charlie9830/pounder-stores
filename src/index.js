@@ -69,11 +69,11 @@ export class TaskListSettingsStore {
     }
 }
 
-export function ChecklistSettingsFactory(isChecklist, initialStartDate, nextRenewDate, renewInterval) {
+export function ChecklistSettingsFactory(isChecklist, initialStartDate, lastRenewDate, renewInterval) {
     return {
         isChecklist: isChecklist,
         initialStartDate: initialStartDate,
-        nextRenewDate: nextRenewDate,
+        lastRenewDate: lastRenewDate,
         renewInterval: renewInterval,
     }
 }
